@@ -1,0 +1,5 @@
+! Hide job cards that contain "Jobright.ai"
+linkedin.com##.job-card-container:has-text(Jobright.ai)
+linkedin.com##.job-card-container:has(div:has-text("Jobright.ai"))
+linkedin.com##.job-card-container:has(a[href*="jobright.ai"])
+linkedin.com##.job-card-container:has(span:has-text("Jobright.ai"))
