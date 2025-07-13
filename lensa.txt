@@ -1,0 +1,3 @@
+! Hide Lensa jobs on LinkedIn
+linkedin.com##.job-card-container:has-text(Lensa)
+linkedin.com##.job-card-container:has(a[href*="lensa.com"])
